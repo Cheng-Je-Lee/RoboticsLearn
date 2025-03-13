@@ -39,3 +39,9 @@ git push -u origin main
 
 之後可能只需要用
 git push
+
+到github setting collaborators按add people 可以加入協作者
+
+從github 下載程式碼：code->複製Https->回到VScode->打git clone+網址->子資料夾
+更改操作儲存庫：
+cd 新資料夾名稱
