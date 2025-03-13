@@ -32,3 +32,10 @@ git reset --hard 複製還原點編號\\直接刪除後面的存檔
 git remote add origin https://github.com/Cheng-Je-Lee/RoboticsLearn.git
 git branch -M main
 git push -u origin main
+
+就能到網頁上code頁面看到上船的檔案
+
+第一次建立才要用那些
+
+之後可能只需要用
+git push
