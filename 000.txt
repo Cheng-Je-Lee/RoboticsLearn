@@ -23,5 +23,4 @@ git commit -m "回歸狀態的名字" \\就能回到過去存檔點 並保留新
 
 git reset --hard 複製還原點編號\\直接刪除後面的存檔
 
-
-
+建立.gitignore的檔案,裡面輸入*.jpg
