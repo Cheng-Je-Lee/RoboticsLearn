@@ -28,4 +28,7 @@ git reset --hard 複製還原點編號\\直接刪除後面的存檔
 
 建立Github帳號
 到repository建立新的儲存庫 設定名字與說明 按確認
-拉到底部 有程式碼 可將本地檔案傳送至雲端
+拉到底部 有程式碼 可將本地檔案傳送至雲端 複製這三行到termainl
+git remote add origin https://github.com/Cheng-Je-Lee/RoboticsLearn.git
+git branch -M main
+git push -u origin main
