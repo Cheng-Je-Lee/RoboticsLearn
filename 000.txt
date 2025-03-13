@@ -6,10 +6,22 @@ git config --global user.name "lastime"
 git config --global user.email "r03543040@gmail.com"
 git init\\ 來建立資料夾 具有GIT功能
 clear\\可以刪除終端畫面
+
 git status\\ 用來看目前資料夾內檔案的狀態untracked/tracked/staged/committed
+
 git add 000.txt\\狀態由U變A\\可以用空格同時轉化檔案
 git commit -m "Test-1"\\建立版本
 git add *.txt\\表示所有文件一起處理
+
 git log\\看之前的修改 按q退出
 git log --oneline\\簡化版
+
+git diff adeac36 -- 000.txt\\ 查看版本差異\\還原點編號複製 -- 檔案名稱
+git checkout adeac36 -- 000.txt\\叫出前版本
+git status \\看狀態
+git commit -m "回歸狀態的名字" \\就能回到過去存檔點 並保留新的
+
+git reset --hard 複製還原點編號\\直接刪除後面的存檔
+
+
 
