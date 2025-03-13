@@ -1,0 +1,6 @@
+Install VS code
+建立資料夾
+安裝Git
+回到terminal 輸入"git --version"確認為最新的版本
+git config --global user.name "lastime"
+git config --global user.email "r03543040@gmail.com"
