@@ -10,4 +10,6 @@ git status\\ 用來看目前資料夾內檔案的狀態untracked/tracked/staged/
 git add 000.txt\\狀態由U變A\\可以用空格同時轉化檔案
 git commit -m "Test-1"\\建立版本
 git add *.txt\\表示所有文件一起處理
+git log\\看之前的修改 按q退出
+git log --oneline\\簡化版
 
